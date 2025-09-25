@@ -1,0 +1,211 @@
+[
+  {
+    "doc_id": "sample.pdf",
+    "raw_text": "KMRL Intelligence Services Project\nThis document contains details about classifiers, NER, summarizers, and RAG store.\nWe need to build efficient ML/NLP pipelines.",
+    "file_type": "pdf",
+    "length": 22,
+    "cleaned_text": "kmrl intelligence services project this document contains details about classifiers, ner, summarizers, and rag store. we need to build efficient mlnlp pipelines.",
+    "sentences": [
+      "kmrl intelligence services project this document contains details about classifiers, ner, summarizers, and rag store.",
+      "we need to build efficient mlnlp pipelines."
+    ],
+    "words": [
+      "kmrl",
+      "intelligence",
+      "service",
+      "project",
+      "document",
+      "contains",
+      "detail",
+      "classifier",
+      "ner",
+      "summarizers",
+      "rag",
+      "store",
+      "need",
+      "build",
+      "efficient",
+      "mlnlp",
+      "pipeline"
+    ],
+    "num_sentences": 2,
+    "num_words": 17,
+    "chunks": [
+      {
+        "sentences": [
+          "kmrl intelligence services project this document contains details about classifiers, ner, summarizers, and rag store.",
+          "we need to build efficient mlnlp pipelines."
+        ],
+        "words": [
+          "kmrl",
+          "intelligence",
+          "services",
+          "project",
+          "this",
+          "document",
+          "contains",
+          "details",
+          "about",
+          "classifiers,",
+          "ner,",
+          "summarizers,",
+          "and",
+          "rag",
+          "store.",
+          "we",
+          "need",
+          "to",
+          "build",
+          "efficient",
+          "mlnlp",
+          "pipelines."
+        ],
+        "chunk_id": 1,
+        "entities": {},
+        "summary": "kmrl intelligence services project this document contains details about classifiers, ner, summarizers, and rag store. we need to build efficient mlnlp pipelines."
+      }
+    ],
+    "doc_summary": "kmrl intelligence services project this document contains details about classifiers, ner, summarizers, and rag store. we need to build efficient mlnlp pipelines.",
+    "entities": {}
+  },
+  {
+    "doc_id": "sample.docx",
+    "raw_text": "KMRL Project Notes\nThis is a test document for text extraction.\nIt contains multiple lines of text.\nThe features include Classifier, NER, Summarizer, and RAG Store.",
+    "file_type": "docx",
+    "length": 26,
+    "cleaned_text": "kmrl project notes this is a test document for text extraction. it contains multiple lines of text. the features include classifier, ner, summarizer, and rag store.",
+    "sentences": [
+      "kmrl project notes this is a test document for text extraction.",
+      "it contains multiple lines of text.",
+      "the features include classifier, ner, summarizer, and rag store."
+    ],
+    "words": [
+      "kmrl",
+      "project",
+      "note",
+      "test",
+      "document",
+      "text",
+      "extraction",
+      "contains",
+      "multiple",
+      "line",
+      "text",
+      "feature",
+      "include",
+      "classifier",
+      "ner",
+      "summarizer",
+      "rag",
+      "store"
+    ],
+    "num_sentences": 3,
+    "num_words": 18,
+    "chunks": [
+      {
+        "sentences": [
+          "kmrl project notes this is a test document for text extraction.",
+          "it contains multiple lines of text.",
+          "the features include classifier, ner, summarizer, and rag store."
+        ],
+        "words": [
+          "kmrl",
+          "project",
+          "notes",
+          "this",
+          "is",
+          "a",
+          "test",
+          "document",
+          "for",
+          "text",
+          "extraction.",
+          "it",
+          "contains",
+          "multiple",
+          "lines",
+          "of",
+          "text.",
+          "the",
+          "features",
+          "include",
+          "classifier,",
+          "ner,",
+          "summarizer,",
+          "and",
+          "rag",
+          "store."
+        ],
+        "chunk_id": 1,
+        "entities": {
+          "ORG": [
+            "kmrl"
+          ]
+        },
+        "summary": "ចំណាំ គម្រោង kmrl នេះ ជា ឯកសារ សាកល្បង សម្រាប់ ការ ស្រង់ អត្ថបទ & # 160; ។"
+      }
+    ],
+    "doc_summary": "ចំណាំ គម្រោង kmrl នេះ ជា ឯកសារ សាកល្បង សម្រាប់ ការ ស្រង់ អត្ថបទ & # 160; ។",
+    "entities": {
+      "ORG": [
+        "kmrl"
+      ]
+    }
+  },
+  {
+    "doc_id": "sample.txt",
+    "raw_text": "This is a sample TXT file.\nIt contains plain text only.\nFor testing text extraction.",
+    "file_type": "txt",
+    "length": 15,
+    "cleaned_text": "this is a sample txt file. it contains plain text only. for testing text extraction.",
+    "sentences": [
+      "this is a sample txt file.",
+      "it contains plain text only.",
+      "for testing text extraction."
+    ],
+    "words": [
+      "sample",
+      "txt",
+      "file",
+      "contains",
+      "plain",
+      "text",
+      "testing",
+      "text",
+      "extraction"
+    ],
+    "num_sentences": 3,
+    "num_words": 9,
+    "chunks": [
+      {
+        "sentences": [
+          "this is a sample txt file.",
+          "it contains plain text only.",
+          "for testing text extraction."
+        ],
+        "words": [
+          "this",
+          "is",
+          "a",
+          "sample",
+          "txt",
+          "file.",
+          "it",
+          "contains",
+          "plain",
+          "text",
+          "only.",
+          "for",
+          "testing",
+          "text",
+          "extraction."
+        ],
+        "chunk_id": 1,
+        "entities": {},
+        "summary": "this is a sample txt file. it contains plain text only. for testing text extraction."
+      }
+    ],
+    "doc_summary": "this is a sample txt file. it contains plain text only. for testing text extraction.",
+    "entities": {}
+  }
+]
